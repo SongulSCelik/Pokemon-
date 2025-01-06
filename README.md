@@ -62,19 +62,18 @@ Battle History: Log battle events for replayability or debugging.
 
 
 🛠️ Project Structure
+1. **Modular Version** (Recommended for understanding and further development):
+   - `battle.py`: Contains the `Battle` class for managing team battles.
+   - `items.py`: Contains the `Item`, `Potion`, and `Pokeball` classes for in-game items.
+   - `move.py`: Contains the `Move` class for defining Pokémon moves.
+   - `pokemon.py`: Contains the `Pokemon` class for Pokémon logic.
+   - `team.py`: Contains the `Team` class for managing Pokémon teams.
+   - `main.py`: Entry point for the game.
 
-*battle.py:
-Contains the Battle class for managing team battles.
-*items.py: 
-Contains the Item, Potion, and Pokeball classes for in-game items.
-*move.py: 
-Contains the Move class for defining Pokémon moves.
-*pokemon.py: 
-Contains the Pokemon class for Pokémon logic.
-*team.py:
-Contains the Team class for managing Pokémon teams.
-*main.py: 
-Entry point for the game.
+2. **Single-File Version**:
+   - `POKEMON_SingleFile.py`: Combines all the classes and logic into a single Python file for easier portability and quick execution.
+
+---
 
 
 
