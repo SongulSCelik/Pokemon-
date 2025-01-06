@@ -63,17 +63,17 @@ Battle History: Log battle events for replayability or debugging.
 
 🛠️ Project Structure
 
-battle.py:
+*battle.py:
 Contains the Battle class for managing team battles.
-items.py: 
+*items.py: 
 Contains the Item, Potion, and Pokeball classes for in-game items.
-move.py: 
+*move.py: 
 Contains the Move class for defining Pokémon moves.
-pokemon.py: 
+*pokemon.py: 
 Contains the Pokemon class for Pokémon logic.
-team.py:
+*team.py:
 Contains the Team class for managing Pokémon teams.
-main.py: 
+*main.py: 
 Entry point for the game.
 
 
